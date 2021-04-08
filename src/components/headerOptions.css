@@ -1,0 +1,16 @@
+.header__options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+    color: rgb(77, 77, 77);
+}
+.header__options:hover{
+    transition: .3s;
+    color: rgb(49, 49, 49);
+}
+.header__options h3{
+    font-size: 16px;
+    font-weight: 500;
+}

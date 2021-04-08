@@ -1,0 +1,40 @@
+.header__top{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    background-color: #f7f7f7;
+}
+.header__left{
+    flex: 0.5;
+}
+.header__left{
+    display: flex;
+}
+.header__left .logo{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-self: center;
+    object-fit: scale-down;
+}
+.header__left .logo img{
+    width: 50px;
+}
+.header__left .search__box {
+    align-self: center;
+    display: flex;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 3px 5px;
+    align-items: center;
+    background-color: #ffffff;
+}
+.search_icon{
+    cursor: pointer;
+    padding-right: 5px;
+}
+.header__right{
+    display: flex;
+    justify-content: space-evenly;
+}
