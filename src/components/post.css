@@ -1,0 +1,33 @@
+.posts {
+    margin-top: 25px;
+}
+.post {
+    background: #fff;
+    padding: 10px;
+    margin: 5px;
+    position: relative;
+}
+span.post__del {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    color: red;
+}
+.post_content p {
+    margin-top: 8px;
+}
+.post_content small {
+    background: #228eea;
+    padding: 1px 5px;
+    color: white;
+    border-radius: 3px;
+}
+span.post__edit {
+    position: absolute;
+    right: 30px;
+    color: #228eea;
+    cursor: pointer;
+    border-right: 1px solid #ddd;
+    padding-right: 9px;
+    cursor: pointer;
+}

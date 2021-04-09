@@ -1,8 +1,14 @@
 .header__top{
     display: flex;
-    justify-content: space-evenly;
-    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
     background-color: #f7f7f7;
+}
+.header__content {
+    display: flex;
+    width: 1024px;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 .header__left{
     flex: 0.5;
@@ -11,8 +17,6 @@
     display: flex;
 }
 .header__left .logo{
-    padding-top: 5px;
-    padding-bottom: 5px;
     align-self: center;
     object-fit: scale-down;
 }
@@ -37,4 +41,7 @@
 .header__right{
     display: flex;
     justify-content: space-evenly;
+}
+.navLink{
+    text-decoration: none;
 }

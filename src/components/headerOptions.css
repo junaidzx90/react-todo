@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 20px;
+    margin: 0px 8px;
     cursor: pointer;
     color: rgb(77, 77, 77);
 }
@@ -13,4 +13,7 @@
 .header__options h3{
     font-size: 16px;
     font-weight: 500;
+}
+.active{
+    background-color: #dedede;
 }

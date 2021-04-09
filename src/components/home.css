@@ -1,0 +1,41 @@
+.homePage{
+    display: flex;
+    margin-top: 10px;
+}
+.left__sidebar{
+    flex: .3;
+}
+.content__area{
+    flex: .7;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+.create__post {
+    padding: 5px;
+    display: flex;
+    position: relative;
+}
+.create__post textarea {
+    resize: vertical;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    height: 20px;
+    min-height: 20px;
+    max-height: fit-content;
+}
+.saveIcon {
+    position: absolute;
+    right: 13px;
+    top: 16px;
+    color: #228eea;
+    cursor: pointer;
+}
+h1.secion__title {
+    text-align: center;
+    margin-top: 12px;
+}
